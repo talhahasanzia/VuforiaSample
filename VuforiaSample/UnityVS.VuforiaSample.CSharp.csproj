@@ -72,6 +72,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CustomEventHandler.cs" />
+    <Compile Include="Assets\Scripts\AnimationsScript.cs" />
+    <Compile Include="Assets\Scripts\Bounce.cs" />
+    <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
@@ -111,7 +114,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\Sample 1.xml" />
     <None Include="Assets\StreamingAssets\QCAR\Sample.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\WhiteImages.xml" />
     <None Include="Assets\Vuforia\Editor\Scripts\Qualcomm.Vuforia.UnityExtensions.Editor.XML" />
     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
     <None Include="Assets\Vuforia\Scripts\Internal\Qualcomm.Vuforia.UnityExtensions.XML" />

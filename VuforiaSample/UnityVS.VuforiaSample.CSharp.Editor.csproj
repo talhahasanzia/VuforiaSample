@@ -108,12 +108,6 @@
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
-    <Reference Include="Qualcomm.Vuforia.UnityExtensions">
-      <HintPath>Assets\Vuforia\Scripts\Internal\Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
-    </Reference>
-    <Reference Include="Qualcomm.Vuforia.UnityExtensions.Editor">
-      <HintPath>Assets\Vuforia\Editor\Scripts\Qualcomm.Vuforia.UnityExtensions.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
@@ -122,6 +116,12 @@
     </Reference>
     <Reference Include="UnityVS.VersionSpecific">
       <HintPath>Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll</HintPath>
+    </Reference>
+    <Reference Include="Qualcomm.Vuforia.UnityExtensions.Editor">
+      <HintPath>Assets\Vuforia\Editor\Scripts\Qualcomm.Vuforia.UnityExtensions.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Qualcomm.Vuforia.UnityExtensions">
+      <HintPath>Assets\Vuforia\Scripts\Internal\Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-UnityScript-Editor-firstpass">
       <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-Editor-firstpass.dll</HintPath>
@@ -140,7 +140,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\Sample 1.xml" />
     <None Include="Assets\StreamingAssets\QCAR\Sample.xml" />
+    <None Include="Assets\StreamingAssets\QCAR\WhiteImages.xml" />
     <None Include="Assets\Vuforia\Editor\Scripts\Qualcomm.Vuforia.UnityExtensions.Editor.XML" />
     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
     <None Include="Assets\Vuforia\Scripts\Internal\Qualcomm.Vuforia.UnityExtensions.XML" />
